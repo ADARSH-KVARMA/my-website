@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="projects-section" id="projects" data-aos="fade-up">
+  <h2 class="section-heading">Projects</h2>
+  <div class="projects-grid">
+
+
+    <div class="project-card" data-aos="fade-right" data-aos-delay="200">
+      <h3 class="project-title">Virtual Teaching Assistant for TDS (IIT Madras)</h3>
+      <p class="project-desc">
+        A RAG-based virtual assistant for the IIT Madras B.S. Data Science TDS course, developed using Flask, GPT-4o-mini, and LangChain.
+        It answers student queries based on scraped Discourse threads and official materials, supports text/image inputs, and returns reference-linked answers.
+        Includes a web interface and JSON API to assist both students and TAs. <br><br>
+        <strong>Tools:</strong> Flask, OpenAI GPT-4o-mini, LangChain, Discourse Scraping, HTML/CSS<br>
+        <strong>Duration:</strong> May 2025 – Jun 2025
+      </p>
+      <a href="https://github.com/ADARSH-KVARMA/TDS-TA" class="project-link" target="_blank">GitHub</a>
+      <a href="" class="project-link" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card" data-aos="fade-left" data-aos-delay="300">
+      <h3 class="project-title">College Announcement & Resource Portal</h3>
+      <p class="project-desc">
+        A centralized platform to share academic announcements and subject-wise notes using real-time data from Google Sheets.
+        Designed with a clean UI using Flask and HTML/CSS. Over 100 students use it daily to access updates and shared resources.<br><br>
+        <strong>Tools:</strong> Flask, HTML, CSS, JavaScript, Google Sheets API, Google Studio<br>
+        <strong>Duration:</strong> Mar 2025 – Apr 2025
+      </p>
+      <a href="https://github.com/ADARSH-KVARMA/Student-Central-Announcements-Study-Hub" class="project-link" target="_blank">GitHub</a>
+      <a href="https://adarshvarma2025.pythonanywhere.com/" class="project-link" target="_blank">Visit</a>
+    </div>
+
+  </div>
+</section>
+{% endblock %}

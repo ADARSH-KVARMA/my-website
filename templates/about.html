@@ -1,0 +1,20 @@
+<!-- templates/about.html -->
+{% extends "base.html" %}
+{% block content %}
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text" data-aos="fade-right" data-aos-offset="200">
+      <h2 class="about-heading">About Me</h2>
+      <p class="about-intro">I’m a dual-degree student passionate about combining core engineering with the power of data. With a background in Metallurgical and Materials Engineering and a second degree in Data Science from IIT Madras, I thrive at the intersection of materials, computation, and intelligent systems. I enjoy building practical solutions—be it analyzing material behavior or developing data-driven web applications.</p>
+      <ul class="about-list">
+        <li data-aos="fade-up" data-aos-delay="100">🎓 Dual-degree student at VNIT Nagpur + IIT Madras (Data Science)</li>
+        <li data-aos="fade-up" data-aos-delay="200">🧪 Exploring AI/ML and it's applications</li>
+        <li data-aos="fade-up" data-aos-delay="300">🛠️ Projects in Python, Flask, Git, and data analytics</li>
+      </ul>
+    </div>
+    <div class="about-image" data-aos="zoom-in" data-aos-delay="400">
+      <img src="{{ url_for('static', filename='images/p.jpg') }}" alt="Profile Photo">
+    </div>
+  </div>
+</section>
+{% endblock %}
